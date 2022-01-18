@@ -22,6 +22,5 @@ def reap(target):
                 print(f"{coloring.GREEN}\n  <───$:[Added Target to Group {added}]───>") 
               else:
                 added += 1
-                print(h.json())
                 print(f"{coloring.FAIL}\n  <───$:[Failed To Add Target to Group {added}]───>")
 ###################################################
